@@ -18,10 +18,14 @@ alert('Items (' + (1 + 1) + '): $' + (2095 + 799) / 100);
 "hello"
 "I'm learning JavaScript"
 
+// Escape character \' \n
 'I\'m learning JavaScript'
 alert('some\ntext');
 
+// String created with  backticks actually have names they are called templete strings
 `hello`
+// Interpolation = insert values in a string.
 `Items (${1 + 1}): $${(2095 + 799) / 100}`
+//Multi-line string.
 `some
 text`
